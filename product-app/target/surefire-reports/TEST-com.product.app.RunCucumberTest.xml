@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.product.app.RunCucumberTest" time="0.473" tests="33" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1258"/>
+    <property name="java.class.path" value="E:\Yêu Cầu Phần Mềm Thầy Phước\9-4\product-app\target\test-classes;E:\Yêu Cầu Phần Mềm Thầy Phước\9-4\product-app\target\classes;C:\Users\HP\.m2\repository\io\cucumber\cucumber-java\7.11.1\cucumber-java-7.11.1.jar;C:\Users\HP\.m2\repository\io\cucumber\cucumber-core\7.11.1\cucumber-core-7.11.1.jar;C:\Users\HP\.m2\repository\io\cucumber\cucumber-gherkin\7.11.1\cucumber-gherkin-7.11.1.jar;C:\Users\HP\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.11.1\cucumber-gherkin-messages-7.11.1.jar;C:\Users\HP\.m2\repository\io\cucumber\gherkin\26.0.3\gherkin-26.0.3.jar;C:\Users\HP\.m2\repository\io\cucumber\messages\21.0.1\messages-21.0.1.jar;C:\Users\HP\.m2\repository\io\cucumber\tag-expressions\5.0.1\tag-expressions-5.0.1.jar;C:\Users\HP\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\HP\.m2\repository\io\cucumber\datatable\7.11.1\datatable-7.11.1.jar;C:\Users\HP\.m2\repository\io\cucumber\cucumber-plugin\7.11.1\cucumber-plugin-7.11.1.jar;C:\Users\HP\.m2\repository\io\cucumber\docstring\7.11.1\docstring-7.11.1.jar;C:\Users\HP\.m2\repository\io\cucumber\html-formatter\20.2.1\html-formatter-20.2.1.jar;C:\Users\HP\.m2\repository\io\cucumber\junit-xml-formatter\0.1.0\junit-xml-formatter-0.1.0.jar;C:\Users\HP\.m2\repository\io\cucumber\ci-environment\9.1.0\ci-environment-9.1.0.jar;C:\Users\HP\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\HP\.m2\repository\io\cucumber\cucumber-junit-platform-engine\7.11.1\cucumber-junit-platform-engine-7.11.1.jar;C:\Users\HP\.m2\repository\org\junit\platform\junit-platform-engine\1.9.2\junit-platform-engine-1.9.2.jar;C:\Users\HP\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\HP\.m2\repository\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar;C:\Users\HP\.m2\repository\org\junit\platform\junit-platform-suite\1.9.2\junit-platform-suite-1.9.2.jar;C:\Users\HP\.m2\repository\org\junit\platform\junit-platform-suite-api\1.9.2\junit-platform-suite-api-1.9.2.jar;C:\Users\HP\.m2\repository\org\junit\platform\junit-platform-suite-engine\1.9.2\junit-platform-suite-engine-1.9.2.jar;C:\Users\HP\.m2\repository\org\junit\platform\junit-platform-suite-commons\1.9.2\junit-platform-suite-commons-1.9.2.jar;C:\Users\HP\.m2\repository\org\junit\platform\junit-platform-launcher\1.9.2\junit-platform-launcher-1.9.2.jar;C:\Users\HP\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.2\junit-jupiter-5.9.2.jar;C:\Users\HP\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar;C:\Users\HP\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.2\junit-jupiter-params-5.9.2.jar;C:\Users\HP\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.2\junit-jupiter-engine-5.9.2.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Asia/Saigon"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="VN"/>
+    <property name="sun.boot.library.path" value="C:\Users\HP\AppData\Roaming\Code\User\globalStorage\pleiades.java-extension-pack-jdk\java\21\bin"/>
+    <property name="sun.java.command" value="C:\Users\HP\AppData\Local\Temp\surefire5247798206560317992\surefirebooter-20260414100153921_3.jar C:\Users\HP\AppData\Local\Temp\surefire5247798206560317992 2026-04-14T10-01-52_729-jvmRun1 surefire-20260414100153921_1tmp surefire_0-20260414100153921_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="E:\Yêu Cầu Phần Mềm Thầy Phước\9-4\product-app\target\test-classes;E:\Yêu Cầu Phần Mềm Thầy Phước\9-4\product-app\target\classes;C:\Users\HP\.m2\repository\io\cucumber\cucumber-java\7.11.1\cucumber-java-7.11.1.jar;C:\Users\HP\.m2\repository\io\cucumber\cucumber-core\7.11.1\cucumber-core-7.11.1.jar;C:\Users\HP\.m2\repository\io\cucumber\cucumber-gherkin\7.11.1\cucumber-gherkin-7.11.1.jar;C:\Users\HP\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.11.1\cucumber-gherkin-messages-7.11.1.jar;C:\Users\HP\.m2\repository\io\cucumber\gherkin\26.0.3\gherkin-26.0.3.jar;C:\Users\HP\.m2\repository\io\cucumber\messages\21.0.1\messages-21.0.1.jar;C:\Users\HP\.m2\repository\io\cucumber\tag-expressions\5.0.1\tag-expressions-5.0.1.jar;C:\Users\HP\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\HP\.m2\repository\io\cucumber\datatable\7.11.1\datatable-7.11.1.jar;C:\Users\HP\.m2\repository\io\cucumber\cucumber-plugin\7.11.1\cucumber-plugin-7.11.1.jar;C:\Users\HP\.m2\repository\io\cucumber\docstring\7.11.1\docstring-7.11.1.jar;C:\Users\HP\.m2\repository\io\cucumber\html-formatter\20.2.1\html-formatter-20.2.1.jar;C:\Users\HP\.m2\repository\io\cucumber\junit-xml-formatter\0.1.0\junit-xml-formatter-0.1.0.jar;C:\Users\HP\.m2\repository\io\cucumber\ci-environment\9.1.0\ci-environment-9.1.0.jar;C:\Users\HP\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\HP\.m2\repository\io\cucumber\cucumber-junit-platform-engine\7.11.1\cucumber-junit-platform-engine-7.11.1.jar;C:\Users\HP\.m2\repository\org\junit\platform\junit-platform-engine\1.9.2\junit-platform-engine-1.9.2.jar;C:\Users\HP\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\HP\.m2\repository\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar;C:\Users\HP\.m2\repository\org\junit\platform\junit-platform-suite\1.9.2\junit-platform-suite-1.9.2.jar;C:\Users\HP\.m2\repository\org\junit\platform\junit-platform-suite-api\1.9.2\junit-platform-suite-api-1.9.2.jar;C:\Users\HP\.m2\repository\org\junit\platform\junit-platform-suite-engine\1.9.2\junit-platform-suite-engine-1.9.2.jar;C:\Users\HP\.m2\repository\org\junit\platform\junit-platform-suite-commons\1.9.2\junit-platform-suite-commons-1.9.2.jar;C:\Users\HP\.m2\repository\org\junit\platform\junit-platform-launcher\1.9.2\junit-platform-launcher-1.9.2.jar;C:\Users\HP\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.2\junit-jupiter-5.9.2.jar;C:\Users\HP\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar;C:\Users\HP\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.2\junit-jupiter-params-5.9.2.jar;C:\Users\HP\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.2\junit-jupiter-engine-5.9.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\HP"/>
+    <property name="user.language" value="vi"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2026-01-20"/>
+    <property name="java.home" value="C:\Users\HP\AppData\Roaming\Code\User\globalStorage\pleiades.java-extension-pack-jdk\java\21"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="E:\Yêu Cầu Phần Mềm Thầy Phước\9-4\product-app"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\HP\AppData\Local\Temp\surefire5247798206560317992\surefirebooter-20260414100153921_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.10+7-LTS"/>
+    <property name="user.name" value="HP"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-21.0.10+7"/>
+    <property name="localRepository" value="C:\Users\HP\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\HP\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.10"/>
+    <property name="user.dir" value="E:\Yêu Cầu Phần Mềm Thầy Phước\9-4\product-app"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1258"/>
+    <property name="java.library.path" value="C:\Users\HP\AppData\Roaming\Code\User\globalStorage\pleiades.java-extension-pack-jdk\java\21\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\HP\AppData\Roaming\Code\User\globalStorage\pleiades.java-extension-pack-jdk\java\21\bin;C:\Program Files\Eclipse Adoptium\jdk-17.0.17.10-hotspot\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\nodejs\;%MAVEN_HOME%\bin;C:\Program Files\apache-maven-3.9.6-bin\apache-maven-3.9.6\bin;E:\Tiem Tra\Git\cmd;C:\Users\HP\.local\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\HP\AppData\Local\Microsoft\WindowsApps;C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\HP\.dotnet\tools;C:\Users\HP\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA 2025.2.1\bin;E:\TiemTra\apache-maven-3.9.11-bin\bin;C:\Users\HP\AppData\Local\Programs\Antigravity\bin;C:\Users\HP\AppData\Roaming\npm;c:\Users\HP\.antigravity\extensions\vscjava.vscode-java-debug-0.58.5-universal\bundled\scripts\noConfigScripts;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="21.0.10+7-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="AC1 (happy path) Thêm sản phẩm thành công" classname="admin quản lý hệ thống" time="0.083">
+    <system-out><![CDATA[
+Scenario: AC1 (happy path) Thêm sản phẩm thành công &amp#27;[90m# com/product/app/admin.feature:9&amp#27;[0m
+TEST: Admin đã đăng nhập hệ thống thành công.
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32madmin đã đăng nhập&amp#27;[0m                          &amp#27;[90m# com.product.app.admimSteps.admin_da_dang_nhap()&amp#27;[0m
+TEST: Admin đang thêm một sản phẩm mới hợp lệ.
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32madmin thêm sản phẩm mới&amp#27;[0m                      &amp#27;[90m# com.product.app.admimSteps.admin_them_san_pham_moi()&amp#27;[0m
+TEST: Hệ thống đã lưu sản phẩm mới thành công.
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mhệ thống lưu sản phẩm thành công&amp#27;[0m             &amp#27;[90m# com.product.app.admimSteps.he_thong_luu_san_pham_thanh_cong()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="AC1 (unhappy path) Thêm sản phẩm thất bại khi thiếu thông tin" classname="admin quản lý hệ thống" time="0.012">
+    <system-out><![CDATA[
+Scenario: AC1 (unhappy path) Thêm sản phẩm thất bại khi thiếu thông tin &amp#27;[90m# com/product/app/admin.feature:20&amp#27;[0m
+TEST: Admin đã đăng nhập hệ thống thành công.
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32madmin đã đăng nhập&amp#27;[0m                                              &amp#27;[90m# com.product.app.admimSteps.admin_da_dang_nhap()&amp#27;[0m
+TEST: Admin thêm sản phẩm nhưng thiếu thông tin.
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32madmin thêm sản phẩm nhưng thiếu tên hoặc giá&amp#27;[0m                     &amp#27;[90m# com.product.app.admimSteps.admin_them_san_pham_nhung_thieu_ten_hoac_gia()&amp#27;[0m
+TEST: Hiện lỗi thiếu thông tin và không lưu sản phẩm.
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mhệ thống hiển thị lỗi và không lưu sản phẩm&amp#27;[0m                      &amp#27;[90m# com.product.app.admimSteps.he_thong_hien_thi_loi_va_khong_luu_san_pham()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="AC2 (happy path) Sửa sản phẩm thành công" classname="admin quản lý hệ thống" time="0.012">
+    <system-out><![CDATA[
+Scenario: AC2 (happy path) Sửa sản phẩm thành công &amp#27;[90m# com/product/app/admin.feature:31&amp#27;[0m
+TEST: Admin đã đăng nhập hệ thống thành công.
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32madmin đã đăng nhập&amp#27;[0m                         &amp#27;[90m# com.product.app.admimSteps.admin_da_dang_nhap()&amp#27;[0m
+TEST: Admin chỉnh sửa sản phẩm.
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32madmin chỉnh sửa thông tin sản phẩm&amp#27;[0m          &amp#27;[90m# com.product.app.admimSteps.admin_chinh_sua_thong_tin_san_pham()&amp#27;[0m
+TEST: Sản phẩm được cập nhật.
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mhệ thống cập nhật sản phẩm&amp#27;[0m                  &amp#27;[90m# com.product.app.admimSteps.he_thong_cap_nhat_san_pham()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="AC2 (unhappy path) Sửa sản phẩm thất bại" classname="admin quản lý hệ thống" time="0.015">
+    <system-out><![CDATA[
+Scenario: AC2 (unhappy path) Sửa sản phẩm thất bại &amp#27;[90m# com/product/app/admin.feature:42&amp#27;[0m
+TEST: Admin đã đăng nhập hệ thống thành công.
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32madmin đã đăng nhập&amp#27;[0m                         &amp#27;[90m# com.product.app.admimSteps.admin_da_dang_nhap()&amp#27;[0m
+TEST: Thông tin chỉnh sửa không hợp lệ.
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32madmin nhập thông tin sản phẩm không hợp lệ&amp#27;[0m  &amp#27;[90m# com.product.app.admimSteps.admin_nhap_thong_tin_san_pham_khong_hop_le()&amp#27;[0m
+TEST: Báo lỗi và không cập nhật.
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mhệ thống báo lỗi và không cập nhật sản phẩm&amp#27;[0m &amp#27;[90m# com.product.app.admimSteps.he_thong_bao_loi_va_khong_cap_nhat_san_pham()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="AC3 (happy path) Xóa sản phẩm thành công" classname="admin quản lý hệ thống" time="0.011">
+    <system-out><![CDATA[
+Scenario: AC3 (happy path) Xóa sản phẩm thành công   &amp#27;[90m# com/product/app/admin.feature:53&amp#27;[0m
+TEST: Admin đã đăng nhập hệ thống thành công.
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32madmin đã đăng nhập&amp#27;[0m                           &amp#27;[90m# com.product.app.admimSteps.admin_da_dang_nhap()&amp#27;[0m
+TEST: Xóa sản phẩm chưa nằm trong đơn hàng.
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32madmin xóa sản phẩm chưa có trong đơn hàng nào&amp#27;[0m &amp#27;[90m# com.product.app.admimSteps.admin_xoa_san_pham_chua_co_trong_don_hang_nao()&amp#27;[0m
+TEST: Xóa sản phẩm thành công.
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32msản phẩm bị xóa khỏi hệ thống&amp#27;[0m                 &amp#27;[90m# com.product.app.admimSteps.san_pham_bi_xoa_khoi_he_thong()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="AC3 (unhappy path) Xóa sản phẩm đang có trong đơn hàng" classname="admin quản lý hệ thống" time="0.01">
+    <system-out><![CDATA[
+Scenario: AC3 (unhappy path) Xóa sản phẩm đang có trong đơn hàng        &amp#27;[90m# com/product/app/admin.feature:64&amp#27;[0m
+TEST: Admin đã đăng nhập hệ thống thành công.
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32madmin đã đăng nhập&amp#27;[0m                                              &amp#27;[90m# com.product.app.admimSteps.admin_da_dang_nhap()&amp#27;[0m
+TEST: Cố xóa sản phẩm không cho phép.
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32madmin xoa san pham khi dang giao hoac khong ton tai&amp#27;[0m              &amp#27;[90m# com.product.app.admimSteps.admin_xoa_san_pham_khi_dang_giao_hoac_khong_ton_tai()&amp#27;[0m
+TEST: Lỗi không thể xóa sản phẩm đang giao dịch.
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mhệ thống hiển thị lỗi không thể xóa sản phẩm đang trong đơn hàng&amp#27;[0m &amp#27;[90m# com.product.app.admimSteps.he_thong_hien_thi_loi_khong_the_xoa_san_pham_dang_trong_don_hang()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="AC4 (happy path) Quản lý danh mục thành công" classname="admin quản lý hệ thống" time="0.009">
+    <system-out><![CDATA[
+Scenario: AC4 (happy path) Quản lý danh mục thành công &amp#27;[90m# com/product/app/admin.feature:75&amp#27;[0m
+TEST: Admin đã đăng nhập hệ thống thành công.
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32madmin đã đăng nhập&amp#27;[0m                             &amp#27;[90m# com.product.app.admimSteps.admin_da_dang_nhap()&amp#27;[0m
+TEST: Admin quản lý danh mục.
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32madmin thêm hoặc sửa hoac xoa danh muc&amp#27;[0m           &amp#27;[90m# com.product.app.admimSteps.admin_them_hoac_sua_hoac_xoa_danh_muc()&amp#27;[0m
+TEST: Cập nhật danh mục thành công.
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mhệ thống cập nhật danh mục&amp#27;[0m                      &amp#27;[90m# com.product.app.admimSteps.he_thong_cap_nhat_danh_muc()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="AC4 (unhappy path) Thêm danh mục bị trùng" classname="admin quản lý hệ thống" time="0.012">
+    <system-out><![CDATA[
+Scenario: AC4 (unhappy path) Thêm danh mục bị trùng    &amp#27;[90m# com/product/app/admin.feature:86&amp#27;[0m
+TEST: Admin đã đăng nhập hệ thống thành công.
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32madmin đã đăng nhập&amp#27;[0m                             &amp#27;[90m# com.product.app.admimSteps.admin_da_dang_nhap()&amp#27;[0m
+TEST: Admin nhập danh mục trùng lặp.
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32madmin thêm hoac sua danh muc bi trung thong tin&amp#27;[0m &amp#27;[90m# com.product.app.admimSteps.admin_them_hoac_sua_danh_muc_bi_trung_thong_tin()&amp#27;[0m
+TEST: Báo lỗi trùng lặp tên danh mục.
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mhệ thống hiển thị lỗi trùng danh mục&amp#27;[0m            &amp#27;[90m# com.product.app.admimSteps.he_thong_hien_thi_loi_trung_danh_muc()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="AC5 (happy path) Quản lý user thành công" classname="admin quản lý hệ thống" time="0.008">
+    <system-out><![CDATA[
+Scenario: AC5 (happy path) Quản lý user thành công &amp#27;[90m# com/product/app/admin.feature:97&amp#27;[0m
+TEST: Admin đã đăng nhập hệ thống thành công.
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32madmin đã đăng nhập&amp#27;[0m                         &amp#27;[90m# com.product.app.admimSteps.admin_da_dang_nhap()&amp#27;[0m
+TEST: Admin quản lý người dùng.
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32madmin xem thong tin hoặc chỉnh sửa user&amp#27;[0m     &amp#27;[90m# com.product.app.admimSteps.admin_xem_thong_tin_hoac_chinh_sua_user()&amp#27;[0m
+TEST: Lưu thay đổi thông tin người dùng.
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mhệ thống lưu thay đổi user&amp#27;[0m                  &amp#27;[90m# com.product.app.admimSteps.he_thong_luu_thay_doi_user()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="AC5 (unhappy path) Chỉnh sửa user không tồn tại" classname="admin quản lý hệ thống" time="0.009">
+    <system-out><![CDATA[
+Scenario: AC5 (unhappy path) Chỉnh sửa user không tồn tại &amp#27;[90m# com/product/app/admin.feature:108&amp#27;[0m
+TEST: Admin đã đăng nhập hệ thống thành công.
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32madmin đã đăng nhập&amp#27;[0m                                &amp#27;[90m# com.product.app.admimSteps.admin_da_dang_nhap()&amp#27;[0m
+TEST: Admin chỉnh sửa dữ liệu người dùng ảo.
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32madmin chỉnh sửa user không tồn tại&amp#27;[0m                 &amp#27;[90m# com.product.app.admimSteps.admin_chinh_sua_user_khong_ton_tai()&amp#27;[0m
+TEST: Không lưu user vì thông tin sai lệch.
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mhệ thống hiển thị lỗi va khong luu user&amp#27;[0m            &amp#27;[90m# com.product.app.admimSteps.he_thong_hien_thi_loi_va_khong_luu_user()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="AC5 (unhappy path) Xóa user đã có đơn hàng" classname="admin quản lý hệ thống" time="0.008">
+    <system-out><![CDATA[
+Scenario: AC5 (unhappy path) Xóa user đã có đơn hàng                &amp#27;[90m# com/product/app/admin.feature:119&amp#27;[0m
+TEST: Admin đã đăng nhập hệ thống thành công.
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32madmin đã đăng nhập&amp#27;[0m                                          &amp#27;[90m# com.product.app.admimSteps.admin_da_dang_nhap()&amp#27;[0m
+TEST: Admin muốn xóa tài khoản có liên kết lịch sử đơn hàng.
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32madmin xóa tài khoản người dùng đã từng đặt hàng&amp#27;[0m              &amp#27;[90m# com.product.app.admimSteps.admin_xoa_tai_khoan_nguoi_dung_da_tung_dat_hang()&amp#27;[0m
+TEST: Chặn xóa tài khoản của người dùng có dữ liệu mua sắm.
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mhệ thống hiển thị lỗi không thể xóa tài khoản đã có đơn hàng&amp#27;[0m &amp#27;[90m# com.product.app.admimSteps.he_thong_hien_thi_loi_khong_the_xoa_tai_khoan_da_co_don_hang()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="AC6 (happy path) Xem danh sách đơn hàng" classname="admin quản lý hệ thống" time="0.009">
+    <system-out><![CDATA[
+Scenario: AC6 (happy path) Xem danh sách đơn hàng                 &amp#27;[90m# com/product/app/admin.feature:130&amp#27;[0m
+TEST: Admin đã đăng nhập hệ thống thành công.
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32madmin đã đăng nhập&amp#27;[0m                                        &amp#27;[90m# com.product.app.admimSteps.admin_da_dang_nhap()&amp#27;[0m
+TEST: Truy cập trang giám sát đơn hàng.
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32madmin mở trang đơn hàng&amp#27;[0m                                    &amp#27;[90m# com.product.app.admimSteps.admin_mo_trang_don_hang()&amp#27;[0m
+TEST: Hiện danh sách đơn hàng.
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mhệ thống hiển thị danh sách đơn hàng sắp xếp theo ngày mua&amp#27;[0m &amp#27;[90m# com.product.app.admimSteps.he_thong_hien_thi_danh_sach_don_hang_sap_xep_theo_ngay_mua()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="AC6 (unhappy path) Không có đơn hàng nào" classname="admin quản lý hệ thống" time="0.006">
+    <system-out><![CDATA[
+Scenario: AC6 (unhappy path) Không có đơn hàng nào   &amp#27;[90m# com/product/app/admin.feature:141&amp#27;[0m
+TEST: Admin đã đăng nhập hệ thống thành công.
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32madmin đã đăng nhập&amp#27;[0m                           &amp#27;[90m# com.product.app.admimSteps.admin_da_dang_nhap()&amp#27;[0m
+TEST: Quản lý lại đơn hàng trống.
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32madmin mở trang đơn hàng da bi xoa&amp#27;[0m             &amp#27;[90m# com.product.app.admimSteps.admin_mo_trang_don_hang_da_bi_xoa()&amp#27;[0m
+TEST: Hiện câu thông báo đơn rỗng.
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mhệ thống hiển thị thông báo không có đơn hàng&amp#27;[0m &amp#27;[90m# com.product.app.admimSteps.he_thong_hien_thi_thong_bao_khong_co_don_hang()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="AC6 (happy path) Cập nhật số lượng mặt hàng trong đơn hàng" classname="admin quản lý hệ thống" time="0.007">
+    <system-out><![CDATA[
+Scenario: AC6 (happy path) Cập nhật số lượng mặt hàng trong đơn hàng &amp#27;[90m# com/product/app/admin.feature:152&amp#27;[0m
+TEST: Admin đã đăng nhập hệ thống thành công.
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32madmin đã đăng nhập&amp#27;[0m                                           &amp#27;[90m# com.product.app.admimSteps.admin_da_dang_nhap()&amp#27;[0m
+TEST: Admin sửa tay đơn hàng trực tuyến.
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32madmin cập nhật số lượng sản phẩm trong đơn hàng trực tuyến&amp#27;[0m    &amp#27;[90m# com.product.app.admimSteps.admin_cap_nhat_so_luong_san_pham_trong_don_hang_truc_tuyen()&amp#27;[0m
+TEST: Cập nhật thành công số lượng.
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mhệ thống lưu thay đổi số lượng trong đơn hàng&amp#27;[0m                 &amp#27;[90m# com.product.app.admimSteps.he_thong_luu_thay_doi_so_luong_trong_don_hang()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="AC7 (happy path) Mua hàng và đặt đơn thành công" classname="customer người dùng có tài khoản" time="0.009">
+    <system-out><![CDATA[
+Scenario: AC7 (happy path) Mua hàng và đặt đơn thành công                                    &amp#27;[90m# com/product/app/customer.feature:11&amp#27;[0m
+TEST: Customer đã đăng nhập và vào trang web.
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mcustomer đã đăng nhập và truy cập vào trang web&amp#27;[0m                                      &amp#27;[90m# com.product.app.admimSteps.customer_da_dang_nhap_va_truy_cap_vao_trang_web()&amp#27;[0m
+TEST: Customer click vào sản phẩm.
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mcustomer bấm vào một sản phẩm phù hợp&amp#27;[0m                                                 &amp#27;[90m# com.product.app.admimSteps.customer_bam_vao_mot_san_pham_phu_hop()&amp#27;[0m
+TEST: Hiển thị thông tin sản phẩm.
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mhệ thống hiển thị thông tin sản phẩm gồm: tên, giá, hình ảnh, mô tả&amp#27;[0m                   &amp#27;[90m# com.product.app.admimSteps.customer_hthong_hien_thi_thong_tin_sp()&amp#27;[0m
+TEST: Bấm nút mua.
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mcustomer bấm vào nút mua&amp#27;[0m                                                               &amp#27;[90m# com.product.app.admimSteps.customer_bam_vao_nut_mua()&amp#27;[0m
+TEST: Hiển thị phương thức thanh toán.
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mhệ thống hiển thị các phương thức thanh toán: tiền mặt hoặc chuyển khoản&amp#27;[0m               &amp#27;[90m# com.product.app.admimSteps.customer_hthong_hien_thi_pt_thanh_toan()&amp#27;[0m
+TEST: Chọn PT thanh toán và đặt hàng.
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mcustomer chọn phương thức thanh toán và bấm đặt hàng&amp#27;[0m                                   &amp#27;[90m# com.product.app.admimSteps.customer_chon_pt_va_dat_hang()&amp#27;[0m
+TEST: Thông báo chờ thanh toán.
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mhệ thống thông báo đơn hàng đang chờ thanh toán và xác nhận đơn hàng đã đặt thành công&amp#27;[0m &amp#27;[90m# com.product.app.admimSteps.customer_hthong_thong_bao_cho_thanh_toan()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="AC7 (unhappy path) Thanh toán khi giỏ hàng trống" classname="customer người dùng có tài khoản" time="0.008">
+    <system-out><![CDATA[
+Scenario: AC7 (unhappy path) Thanh toán khi giỏ hàng trống             &amp#27;[90m# com/product/app/customer.feature:26&amp#27;[0m
+TEST: Giỏ hàng trống.
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mcustomer đã đăng nhập nhưng giỏ hàng trống&amp#27;[0m                     &amp#27;[90m# com.product.app.admimSteps.customer_da_dang_nhap_nhung_gio_hang_trong()&amp#27;[0m
+TEST: Thanh toán.
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mcustomer thực hiện thanh toán&amp#27;[0m                                   &amp#27;[90m# com.product.app.admimSteps.customer_thuc_hien_thanh_toan()&amp#27;[0m
+TEST: Hiển thị giỏ hàng trống.
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mhệ thống hiển thị thông báo giỏ hàng trống không thể thanh toán&amp#27;[0m &amp#27;[90m# com.product.app.admimSteps.customer_hthong_hien_thi_thong_bao_gio_hang_trong_khong_thanh_toan()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="AC7 (unhappy path) Đặt hàng khi sản phẩm hết hàng" classname="customer người dùng có tài khoản" time="0.009">
+    <system-out><![CDATA[
+Scenario: AC7 (unhappy path) Đặt hàng khi sản phẩm hết hàng                  &amp#27;[90m# com/product/app/customer.feature:37&amp#27;[0m
+TEST: Customer đã đăng nhập và vào trang web.
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mcustomer đã đăng nhập và truy cập vào trang web&amp#27;[0m                      &amp#27;[90m# com.product.app.admimSteps.customer_da_dang_nhap_va_truy_cap_vao_trang_web()&amp#27;[0m
+TEST: Bấm mua sản phẩm.
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mcustomer bấm vào một sản phẩm và bấm nút mua&amp#27;[0m                          &amp#27;[90m# com.product.app.admimSteps.customer_bam_vao_san_pham_va_nut_mua()&amp#27;[0m
+TEST: Sản phẩm hết hàng.
+  &amp#27;[32mBut &amp#27;[0m&amp#27;[32msản phẩm đó đã hết hàng&amp#27;[0m                                                &amp#27;[90m# com.product.app.admimSteps.customer_san_pham_het_hang()&amp#27;[0m
+TEST: Báo hết hàng.
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mhệ thống hiển thị thông báo sản phẩm đã hết hàng và không thể đặt đơn&amp#27;[0m &amp#27;[90m# com.product.app.admimSteps.customer_hthong_hien_thi_thong_bao_het_hang()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="AC7 (unhappy path) Đặt hàng khi không chọn phương thức thanh toán" classname="customer người dùng có tài khoản" time="0.008">
+    <system-out><![CDATA[
+Scenario: AC7 (unhappy path) Đặt hàng khi không chọn phương thức thanh toán                 &amp#27;[90m# com/product/app/customer.feature:49&amp#27;[0m
+TEST: Customer đã đăng nhập và vào trang web.
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mcustomer đã đăng nhập và truy cập vào trang web&amp#27;[0m                                     &amp#27;[90m# com.product.app.admimSteps.customer_da_dang_nhap_va_truy_cap_vao_trang_web()&amp#27;[0m
+TEST: Bấm vào sản phẩm phù hợp và bấm nút mua.
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mcustomer bấm vào một sản phẩm phù hợp và bấm nút mua&amp#27;[0m                                 &amp#27;[90m# com.product.app.admimSteps.customer_bam_vao_mot_san_pham_phu_hop_va_bam_nut_mua()&amp#27;[0m
+TEST: Hiển thị phương thức thanh toán.
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mhệ thống hiển thị các phương thức thanh toán: tiền mặt hoặc chuyển khoản&amp#27;[0m             &amp#27;[90m# com.product.app.admimSteps.customer_hthong_hien_thi_pt_thanh_toan()&amp#27;[0m
+TEST: Bấm đặt hàng ko PT.
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mcustomer bấm đặt hàng mà không chọn phương thức thanh toán&amp#27;[0m                            &amp#27;[90m# com.product.app.admimSteps.customer_bam_dat_hang_ko_pt_thanh_toan()&amp#27;[0m
+TEST: Yêu cầu chọn PT.
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mhệ thống hiển thị thông báo yêu cầu chọn phương thức thanh toán và không tạo đơn hàng&amp#27;[0m &amp#27;[90m# com.product.app.admimSteps.customer_hthong_yeu_cau_pt_thanh_toan()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="AC8 (happy path) Hủy đặt hàng thành công" classname="customer người dùng có tài khoản" time="0.006">
+    <system-out><![CDATA[
+Scenario: AC8 (happy path) Hủy đặt hàng thành công                                &amp#27;[90m# com/product/app/customer.feature:64&amp#27;[0m
+TEST: Customer đã đăng nhập và vào trang web.
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mcustomer đã đăng nhập và truy cập vào trang web&amp#27;[0m                           &amp#27;[90m# com.product.app.admimSteps.customer_da_dang_nhap_va_truy_cap_vao_trang_web()&amp#27;[0m
+TEST: Xem đơn hàng.
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mcustomer xem danh sách đơn hàng đã đặt&amp#27;[0m                                     &amp#27;[90m# com.product.app.admimSteps.customer_xem_ds_don_hang()&amp#27;[0m
+TEST: Bấm hủy đơn.
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mcustomer bấm vào nút hủy trên đơn hàng muốn hủy&amp#27;[0m                             &amp#27;[90m# com.product.app.admimSteps.customer_bam_huy_don()&amp#27;[0m
+TEST: Hiển thị form hủy.
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mhệ thống hiển thị form yêu cầu chọn lý do hủy đơn hàng&amp#27;[0m                     &amp#27;[90m# com.product.app.admimSteps.customer_hthong_hien_thi_form_ly_do_huy()&amp#27;[0m
+TEST: Chọn lý do hủy.
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mcustomer chọn một lý do hủy bất kỳ&amp#27;[0m                                          &amp#27;[90m# com.product.app.admimSteps.customer_chon_ly_do_huy()&amp#27;[0m
+TEST: Cập nhật trạng thái.
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mhệ thống cập nhật trạng thái đơn hàng thành "chờ xử lý hoàn tiền"&amp#27;[0m           &amp#27;[90m# com.product.app.admimSteps.customer_hthong_cap_nhat_tt_hoan_tien()&amp#27;[0m
+TEST: Xác nhận hủy và hoàn tiền.
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mhệ thống xác nhận đơn hàng đã được hủy và đang xử lý hoàn tiền cho customer&amp#27;[0m &amp#27;[90m# com.product.app.admimSteps.customer_hthong_xac_nhan_huy_va_hoan_tien()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="AC8 (unhappy path) Hủy đặt hàng thất bại khi không chọn lý do" classname="customer người dùng có tài khoản" time="0.007">
+    <system-out><![CDATA[
+Scenario: AC8 (unhappy path) Hủy đặt hàng thất bại khi không chọn lý do                   &amp#27;[90m# com/product/app/customer.feature:80&amp#27;[0m
+TEST: Có đơn cần hủy.
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mcustomer đã đăng nhập và có đơn hàng cần hủy&amp#27;[0m                                      &amp#27;[90m# com.product.app.admimSteps.customer_co_don_hang_huy()&amp#27;[0m
+TEST: Bấm nút hủy.
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mcustomer bấm vào nút hủy đơn hàng&amp#27;[0m                                                  &amp#27;[90m# com.product.app.admimSteps.customer_bam_nut_huy_don()&amp#27;[0m
+TEST: Ko chọn lý do.
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mcustomer không chọn lý do hủy và bấm xác nhận&amp#27;[0m                                       &amp#27;[90m# com.product.app.admimSteps.customer_ko_chon_ly_do_huy()&amp#27;[0m
+TEST: Yêu cầu lý do.
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mhệ thống hiển thị thông báo yêu cầu chọn lý do hủy và không thực hiện hủy đơn hàng&amp#27;[0m &amp#27;[90m# com.product.app.admimSteps.customer_hthong_yeu_cau_ly_do_huy()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="AC1 (happy path) Xem danh sách sản phẩm" classname="guest người chưa có tài khoản" time="0.006">
+    <system-out><![CDATA[
+Scenario: AC1 (happy path) Xem danh sách sản phẩm &amp#27;[90m# com/product/app/guest.feature:10&amp#27;[0m
+TEST: Guest vào web.
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mguest đã truy cập trang web&amp#27;[0m               &amp#27;[90m# com.product.app.admimSteps.guest_da_truy_cap_trang_web()&amp#27;[0m
+TEST: Guest xem danh sách.
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mguest xem danh sách sản phẩm&amp#27;[0m               &amp#27;[90m# com.product.app.admimSteps.guest_xem_danh_sach_san_pham()&amp#27;[0m
+TEST: Hiển thị danh sách.
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mhệ thống hiển thị danh sách sản phẩm&amp#27;[0m       &amp#27;[90m# com.product.app.admimSteps.guest_he_thong_hien_thi_danh_sach_san_pham()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="AC1 (unhappy path) Không có sản phẩm nào" classname="guest người chưa có tài khoản" time="0.008">
+    <system-out><![CDATA[
+Scenario: AC1 (unhappy path) Không có sản phẩm nào                   &amp#27;[90m# com/product/app/guest.feature:21&amp#27;[0m
+TEST: Guest vào web.
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mguest đã truy cập trang web&amp#27;[0m                                  &amp#27;[90m# com.product.app.admimSteps.guest_da_truy_cap_trang_web()&amp#27;[0m
+TEST: Xem danh sách ko có SP.
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mguest xem danh sách sản phẩm nhưng hệ thống không có sản phẩm&amp#27;[0m &amp#27;[90m# com.product.app.admimSteps.guest_xem_ko_sp()&amp#27;[0m
+TEST: Báo không có SP.
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mhệ thống hiển thị thông báo không có sản phẩm nào&amp#27;[0m             &amp#27;[90m# com.product.app.admimSteps.guest_hthong_hien_thi_thong_bao_ko_sp()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="AC2 (happy path) Xem chi tiết sản phẩm" classname="guest người chưa có tài khoản" time="0.008">
+    <system-out><![CDATA[
+Scenario: AC2 (happy path) Xem chi tiết sản phẩm     &amp#27;[90m# com/product/app/guest.feature:33&amp#27;[0m
+TEST: Guest vào web.
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mguest đã truy cập vào trang web&amp#27;[0m              &amp#27;[90m# com.product.app.admimSteps.guest_da_truy_cap_vao_trang_web()&amp#27;[0m
+TEST: Guest click vào sản phẩm.
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mguest bấm vào một sản phẩm phù hợp&amp#27;[0m            &amp#27;[90m# com.product.app.admimSteps.guest_bam_vao_san_pham_phu_hop()&amp#27;[0m
+TEST: Hiển thị chi tiết SP.
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mhệ thống hiển thị chi tiết thông tin sản phẩm&amp#27;[0m &amp#27;[90m# com.product.app.admimSteps.guest_hthong_hien_thi_chi_tiet_sp()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="AC2 (unhappy path) Xem chi tiết sản phẩm không tồn tại" classname="guest người chưa có tài khoản" time="0.009">
+    <system-out><![CDATA[
+Scenario: AC2 (unhappy path) Xem chi tiết sản phẩm không tồn tại &amp#27;[90m# com/product/app/guest.feature:44&amp#27;[0m
+TEST: Guest vào web.
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mguest đã truy cập trang web&amp#27;[0m                              &amp#27;[90m# com.product.app.admimSteps.guest_da_truy_cap_trang_web()&amp#27;[0m
+TEST: Xem SP ko tồn tại.
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mguest chọn xem chi tiết sản phẩm không tồn tại&amp#27;[0m            &amp#27;[90m# com.product.app.admimSteps.guest_xem_sp_ko_ton_tai()&amp#27;[0m
+TEST: Báo SP ko tồn tại.
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mhệ thống hiển thị thông báo sản phẩm không tồn tại&amp#27;[0m        &amp#27;[90m# com.product.app.admimSteps.guest_hthong_hien_thi_thong_bao_sp_ko_ton_tai()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="AC3 (happy path) Thêm sản phẩm vào giỏ hàng" classname="guest người chưa có tài khoản" time="0.009">
+    <system-out><![CDATA[
+Scenario: AC3 (happy path) Thêm sản phẩm vào giỏ hàng                                         &amp#27;[90m# com/product/app/guest.feature:56&amp#27;[0m
+TEST: Guest vào web.
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mguest đã truy cập vào trang web&amp#27;[0m                                                       &amp#27;[90m# com.product.app.admimSteps.guest_da_truy_cap_vao_trang_web()&amp#27;[0m
+TEST: Guest click vào sản phẩm.
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mguest bấm vào một sản phẩm phù hợp&amp#27;[0m                                                      &amp#27;[90m# com.product.app.admimSteps.guest_bam_vao_san_pham_phu_hop()&amp#27;[0m
+TEST: Hiển thị giá, tên, ảnh.
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mhệ thống hiển thị thông tin giá, tên, hình ảnh phù hợp&amp#27;[0m                                  &amp#27;[90m# com.product.app.admimSteps.guest_hthong_hien_thi_gia_ten_anh()&amp#27;[0m
+TEST: Guest thêm giỏ hàng.
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mguest bấm thêm giỏ hàng&amp#27;[0m                                                                &amp#27;[90m# com.product.app.admimSteps.guest_bam_them_gio_hang()&amp#27;[0m
+TEST: Bắt đăng nhập.
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mhệ thống hiển thị phần đăng nhập đăng ký và bắt buộc người dùng đăng nhập hoặc đăng ký&amp#27;[0m &amp#27;[90m# com.product.app.admimSteps.guest_hthong_bat_dang_nhap()&amp#27;[0m
+TEST: Thông báo DN thành công.
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mhệ thống thông báo đăng nhập hoặc đăng ký thành công&amp#27;[0m                                    &amp#27;[90m# com.product.app.admimSteps.guest_hthong_thong_bao_dn_thanh_cong()&amp#27;[0m
+TEST: Ấn nút thêm giỏ hàng.
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mguest ấn vào nút thêm giỏ hàng&amp#27;[0m                                                          &amp#27;[90m# com.product.app.admimSteps.guest_an_nut_them_gio_hang()&amp#27;[0m
+TEST: Thêm giỏ thành công.
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32msản phẩm sẽ được thêm vào giỏ hàng thành công&amp#27;[0m                                           &amp#27;[90m# com.product.app.admimSteps.guest_sp_them_gio_thanh_cong()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="AC3 (unhappy path) Thêm sản phẩm không tồn tại vào giỏ" classname="guest người chưa có tài khoản" time="0.01">
+    <system-out><![CDATA[
+Scenario: AC3 (unhappy path) Thêm sản phẩm không tồn tại vào giỏ &amp#27;[90m# com/product/app/guest.feature:72&amp#27;[0m
+TEST: Guest vào trang SP.
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mguest đã truy cập trang sản phẩm&amp#27;[0m                         &amp#27;[90m# com.product.app.admimSteps.guest_da_truy_cap_trang_sp()&amp#27;[0m
+TEST: Chọn mua SP ko tồn tại.
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mguest chọn mua sản phẩm không tồn tại&amp#27;[0m                     &amp#27;[90m# com.product.app.admimSteps.guest_chon_mua_sp_ko_ton_tai()&amp#27;[0m
+TEST: Báo ko có SP.
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mhệ thống hiển thị thông báo không có sản phẩm&amp#27;[0m             &amp#27;[90m# com.product.app.admimSteps.guest_hthong_hien_thi_thong_bao_ko_co_sp()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="AC4 (happy path) Xem giỏ hàng có sản phẩm" classname="guest người chưa có tài khoản" time="0.009">
+    <system-out><![CDATA[
+Scenario: AC4 (happy path) Xem giỏ hàng có sản phẩm                                          &amp#27;[90m# com/product/app/guest.feature:84&amp#27;[0m
+TEST: Guest vào web.
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mguest đã truy cập vào trang web&amp#27;[0m                                                      &amp#27;[90m# com.product.app.admimSteps.guest_da_truy_cap_vao_trang_web()&amp#27;[0m
+TEST: Bấm vào giỏ hàng.
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mguest bấm vào giỏ hàng&amp#27;[0m                                                                &amp#27;[90m# com.product.app.admimSteps.guest_bam_vao_gio_hang()&amp#27;[0m
+TEST: Yêu cầu thông tin hợp lệ.
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mhệ thống hiển thị phần đăng nhập đăng ký và bắt buộc người dùng nhập thông tin hợp lệ&amp#27;[0m &amp#27;[90m# com.product.app.admimSteps.guest_hthong_yeu_cau_thong_tin_hop_le()&amp#27;[0m
+TEST: DN thành công.
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mguest đăng nhập hoặc đăng ký thành công&amp#27;[0m                                                &amp#27;[90m# com.product.app.admimSteps.guest_dn_thanh_cong()&amp#27;[0m
+TEST: Bấm vào giỏ hàng.
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mguest bấm vào giỏ hàng&amp#27;[0m                                                                 &amp#27;[90m# com.product.app.admimSteps.guest_bam_vao_gio_hang()&amp#27;[0m
+TEST: Hiển thị DS trong giỏ.
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mhệ thống hiển thị danh sách sản phẩm có trong giỏ hàng&amp#27;[0m                                 &amp#27;[90m# com.product.app.admimSteps.guest_hthong_hien_thi_ds_trong_gio()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="AC4 (unhappy path) Xem giỏ hàng khi chưa đăng nhập" classname="guest người chưa có tài khoản" time="0.009">
+    <system-out><![CDATA[
+Scenario: AC4 (unhappy path) Xem giỏ hàng khi chưa đăng nhập                           &amp#27;[90m# com/product/app/guest.feature:99&amp#27;[0m
+TEST: Guest vào web.
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mguest đã truy cập vào trang web&amp#27;[0m                                                &amp#27;[90m# com.product.app.admimSteps.guest_da_truy_cap_vao_trang_web()&amp#27;[0m
+TEST: Bấm giỏ khi chưa DN.
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mguest bấm vào giỏ hàng nhưng chưa đăng nhập&amp#27;[0m                                     &amp#27;[90m# com.product.app.admimSteps.guest_bam_gio_khi_chua_dn()&amp#27;[0m
+TEST: Không cho xem giỏ.
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mhệ thống hiển thị yêu cầu đăng nhập hoặc đăng ký và không cho phép xem giỏ hàng&amp#27;[0m &amp#27;[90m# com.product.app.admimSteps.guest_hthong_ko_cho_xem_gio()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="AC5 (happy path) Cập nhật số lượng sản phẩm trong giỏ" classname="guest người chưa có tài khoản" time="0.005">
+    <system-out><![CDATA[
+Scenario: AC5 (happy path) Cập nhật số lượng sản phẩm trong giỏ &amp#27;[90m# com/product/app/guest.feature:110&amp#27;[0m
+TEST: Giỏ có SP.
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mguest đã có sản phẩm trong giỏ hàng session&amp#27;[0m             &amp#27;[90m# com.product.app.admimSteps.guest_da_co_sp_trong_gio()&amp#27;[0m
+TEST: Sửa SL hợp lệ.
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mguest chỉnh sửa số lượng sản phẩm thành số hợp lệ&amp#27;[0m        &amp#27;[90m# com.product.app.admimSteps.guest_sua_sl_hop_le()&amp#27;[0m
+TEST: Cập nhật SL session.
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mhệ thống cập nhật số lượng sản phẩm trong session&amp#27;[0m        &amp#27;[90m# com.product.app.admimSteps.guest_cap_nhat_sl_session()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="AC5 (happy path) Xóa sản phẩm khỏi giỏ khi đặt số lượng bằng 0" classname="guest người chưa có tài khoản" time="0.006">
+    <system-out><![CDATA[
+Scenario: AC5 (happy path) Xóa sản phẩm khỏi giỏ khi đặt số lượng bằng 0 &amp#27;[90m# com/product/app/guest.feature:121&amp#27;[0m
+TEST: Giỏ có SP.
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mguest đã có sản phẩm trong giỏ hàng session&amp#27;[0m                      &amp#27;[90m# com.product.app.admimSteps.guest_da_co_sp_trong_gio()&amp#27;[0m
+TEST: Sửa SL về 0.
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mguest chỉnh sửa số lượng sản phẩm thành 0&amp#27;[0m                         &amp#27;[90m# com.product.app.admimSteps.guest_sua_sl_ve_0()&amp#27;[0m
+TEST: Xóa SP khỏi giỏ.
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mhệ thống xóa sản phẩm đó khỏi giỏ hàng trong session&amp#27;[0m              &amp#27;[90m# com.product.app.admimSteps.guest_xoa_sp_khoi_gio()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="AC6 (happy path) Đăng ký tài khoản thành công" classname="guest người chưa có tài khoản" time="0.006">
+    <system-out><![CDATA[
+Scenario: AC6 (happy path) Đăng ký tài khoản thành công           &amp#27;[90m# com/product/app/guest.feature:133&amp#27;[0m
+TEST: Chưa có TK.
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mguest chưa có tài khoản&amp#27;[0m                                   &amp#27;[90m# com.product.app.admimSteps.guest_chua_co_tk()&amp#27;[0m
+TEST: Đăng ký thành công.
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mguest đăng ký với email chưa tồn tại và thông tin hợp lệ&amp#27;[0m   &amp#27;[90m# com.product.app.admimSteps.guest_dang_ky_thanh_cong()&amp#27;[0m
+TEST: Lưu TK và gửi mail.
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mhệ thống lưu tài khoản mới vào CSDL và gửi email thông báo&amp#27;[0m &amp#27;[90m# com.product.app.admimSteps.guest_hthong_luu_tk_va_gui_mail()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="AC6 (unhappy path) Đăng ký với email đã tồn tại" classname="guest người chưa có tài khoản" time="0.006">
+    <system-out><![CDATA[
+Scenario: AC6 (unhappy path) Đăng ký với email đã tồn tại            &amp#27;[90m# com/product/app/guest.feature:144&amp#27;[0m
+TEST: Chưa có TK.
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mguest chưa có tài khoản&amp#27;[0m                                      &amp#27;[90m# com.product.app.admimSteps.guest_chua_co_tk()&amp#27;[0m
+TEST: Đăng ký trùng mail.
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mguest đăng ký với email đã được đăng ký trước đó&amp#27;[0m              &amp#27;[90m# com.product.app.admimSteps.guest_dang_ky_trung_mail()&amp#27;[0m
+TEST: Báo trùng mail.
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mhệ thống hiển thị lỗi email đã tồn tại và không lưu tài khoản&amp#27;[0m &amp#27;[90m# com.product.app.admimSteps.guest_hthong_bao_loi_trung_mail()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="AC6 (unhappy path) Đăng ký với thông tin không hợp lệ" classname="guest người chưa có tài khoản" time="0.01">
+    <system-out><![CDATA[
+Scenario: AC6 (unhappy path) Đăng ký với thông tin không hợp lệ     &amp#27;[90m# com/product/app/guest.feature:156&amp#27;[0m
+TEST: Chưa có TK.
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mguest chưa có tài khoản&amp#27;[0m                                     &amp#27;[90m# com.product.app.admimSteps.guest_chua_co_tk()&amp#27;[0m
+TEST: Đăng ký thiếu thông tin.
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mguest đăng ký nhưng bỏ trống các trường bắt buộc&amp#27;[0m             &amp#27;[90m# com.product.app.admimSteps.guest_dang_ky_thieu_thong_tin()&amp#27;[0m
+TEST: Báo thiếu thông tin.
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mhệ thống hiển thị lỗi thiếu thông tin và không lưu tài khoản&amp#27;[0m &amp#27;[90m# com.product.app.admimSteps.guest_hthong_bao_loi_thieu_thong_tin()&amp#27;[0m
+]]></system-out>
+  </testcase>
+</testsuite>

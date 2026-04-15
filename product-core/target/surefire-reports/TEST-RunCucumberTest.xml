@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="RunCucumberTest" time="0.419" tests="30" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\demo-atm-878a9f2154782014bd4b51a3a504e38852f0c4fb\target\test-classes;D:\demo-atm-878a9f2154782014bd4b51a3a504e38852f0c4fb\target\classes;C:\Users\HP\.m2\repository\io\cucumber\cucumber-java\7.11.1\cucumber-java-7.11.1.jar;C:\Users\HP\.m2\repository\io\cucumber\cucumber-core\7.11.1\cucumber-core-7.11.1.jar;C:\Users\HP\.m2\repository\io\cucumber\cucumber-gherkin\7.11.1\cucumber-gherkin-7.11.1.jar;C:\Users\HP\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.11.1\cucumber-gherkin-messages-7.11.1.jar;C:\Users\HP\.m2\repository\io\cucumber\gherkin\26.0.3\gherkin-26.0.3.jar;C:\Users\HP\.m2\repository\io\cucumber\messages\21.0.1\messages-21.0.1.jar;C:\Users\HP\.m2\repository\io\cucumber\tag-expressions\5.0.1\tag-expressions-5.0.1.jar;C:\Users\HP\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\HP\.m2\repository\io\cucumber\datatable\7.11.1\datatable-7.11.1.jar;C:\Users\HP\.m2\repository\io\cucumber\cucumber-plugin\7.11.1\cucumber-plugin-7.11.1.jar;C:\Users\HP\.m2\repository\io\cucumber\docstring\7.11.1\docstring-7.11.1.jar;C:\Users\HP\.m2\repository\io\cucumber\html-formatter\20.2.1\html-formatter-20.2.1.jar;C:\Users\HP\.m2\repository\io\cucumber\junit-xml-formatter\0.1.0\junit-xml-formatter-0.1.0.jar;C:\Users\HP\.m2\repository\io\cucumber\ci-environment\9.1.0\ci-environment-9.1.0.jar;C:\Users\HP\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\HP\.m2\repository\io\cucumber\cucumber-junit-platform-engine\7.11.1\cucumber-junit-platform-engine-7.11.1.jar;C:\Users\HP\.m2\repository\org\junit\platform\junit-platform-engine\1.9.2\junit-platform-engine-1.9.2.jar;C:\Users\HP\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\HP\.m2\repository\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar;C:\Users\HP\.m2\repository\org\junit\platform\junit-platform-suite\1.9.2\junit-platform-suite-1.9.2.jar;C:\Users\HP\.m2\repository\org\junit\platform\junit-platform-suite-api\1.9.2\junit-platform-suite-api-1.9.2.jar;C:\Users\HP\.m2\repository\org\junit\platform\junit-platform-suite-engine\1.9.2\junit-platform-suite-engine-1.9.2.jar;C:\Users\HP\.m2\repository\org\junit\platform\junit-platform-suite-commons\1.9.2\junit-platform-suite-commons-1.9.2.jar;C:\Users\HP\.m2\repository\org\junit\platform\junit-platform-launcher\1.9.2\junit-platform-launcher-1.9.2.jar;C:\Users\HP\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.2\junit-jupiter-5.9.2.jar;C:\Users\HP\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar;C:\Users\HP\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.2\junit-jupiter-params-5.9.2.jar;C:\Users\HP\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.2\junit-jupiter-engine-5.9.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Bangkok"/>
+    <property name="user.country.format" value="VI"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Users\HP\Downloads\openjdk-21.0.2_windows-x64_bin (1)\jdk-21.0.2\bin"/>
+    <property name="sun.java.command" value="C:\Users\HP\AppData\Local\Temp\surefire4479687706930036476\surefirebooter-20260406215500522_3.jar C:\Users\HP\AppData\Local\Temp\surefire4479687706930036476 2026-04-06T21-54-59_180-jvmRun1 surefire-20260406215500522_1tmp surefire_0-20260406215500522_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\demo-atm-878a9f2154782014bd4b51a3a504e38852f0c4fb\target\test-classes;D:\demo-atm-878a9f2154782014bd4b51a3a504e38852f0c4fb\target\classes;C:\Users\HP\.m2\repository\io\cucumber\cucumber-java\7.11.1\cucumber-java-7.11.1.jar;C:\Users\HP\.m2\repository\io\cucumber\cucumber-core\7.11.1\cucumber-core-7.11.1.jar;C:\Users\HP\.m2\repository\io\cucumber\cucumber-gherkin\7.11.1\cucumber-gherkin-7.11.1.jar;C:\Users\HP\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.11.1\cucumber-gherkin-messages-7.11.1.jar;C:\Users\HP\.m2\repository\io\cucumber\gherkin\26.0.3\gherkin-26.0.3.jar;C:\Users\HP\.m2\repository\io\cucumber\messages\21.0.1\messages-21.0.1.jar;C:\Users\HP\.m2\repository\io\cucumber\tag-expressions\5.0.1\tag-expressions-5.0.1.jar;C:\Users\HP\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\HP\.m2\repository\io\cucumber\datatable\7.11.1\datatable-7.11.1.jar;C:\Users\HP\.m2\repository\io\cucumber\cucumber-plugin\7.11.1\cucumber-plugin-7.11.1.jar;C:\Users\HP\.m2\repository\io\cucumber\docstring\7.11.1\docstring-7.11.1.jar;C:\Users\HP\.m2\repository\io\cucumber\html-formatter\20.2.1\html-formatter-20.2.1.jar;C:\Users\HP\.m2\repository\io\cucumber\junit-xml-formatter\0.1.0\junit-xml-formatter-0.1.0.jar;C:\Users\HP\.m2\repository\io\cucumber\ci-environment\9.1.0\ci-environment-9.1.0.jar;C:\Users\HP\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\HP\.m2\repository\io\cucumber\cucumber-junit-platform-engine\7.11.1\cucumber-junit-platform-engine-7.11.1.jar;C:\Users\HP\.m2\repository\org\junit\platform\junit-platform-engine\1.9.2\junit-platform-engine-1.9.2.jar;C:\Users\HP\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\HP\.m2\repository\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar;C:\Users\HP\.m2\repository\org\junit\platform\junit-platform-suite\1.9.2\junit-platform-suite-1.9.2.jar;C:\Users\HP\.m2\repository\org\junit\platform\junit-platform-suite-api\1.9.2\junit-platform-suite-api-1.9.2.jar;C:\Users\HP\.m2\repository\org\junit\platform\junit-platform-suite-engine\1.9.2\junit-platform-suite-engine-1.9.2.jar;C:\Users\HP\.m2\repository\org\junit\platform\junit-platform-suite-commons\1.9.2\junit-platform-suite-commons-1.9.2.jar;C:\Users\HP\.m2\repository\org\junit\platform\junit-platform-launcher\1.9.2\junit-platform-launcher-1.9.2.jar;C:\Users\HP\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.2\junit-jupiter-5.9.2.jar;C:\Users\HP\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar;C:\Users\HP\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.2\junit-jupiter-params-5.9.2.jar;C:\Users\HP\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.2\junit-jupiter-engine-5.9.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\HP"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-01-16"/>
+    <property name="java.home" value="C:\Users\HP\Downloads\openjdk-21.0.2_windows-x64_bin (1)\jdk-21.0.2"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\demo-atm-878a9f2154782014bd4b51a3a504e38852f0c4fb"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\HP\AppData\Local\Temp\surefire4479687706930036476\surefirebooter-20260406215500522_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.2+13-58"/>
+    <property name="user.name" value="HP"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\HP\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\HP\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.2"/>
+    <property name="user.dir" value="D:\demo-atm-878a9f2154782014bd4b51a3a504e38852f0c4fb"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\HP\Downloads\openjdk-21.0.2_windows-x64_bin (1)\jdk-21.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Windows\System32;C:\Users\HP\Downloads\apache-maven-3.9.6-bin\apache-maven-3.9.6\bin;C:\Program Files\nodejs\;C:\Users\HP\AppData\Local\Programs\Python\Python314\Scripts\;C:\Users\HP\AppData\Local\Programs\Python\Python314\;C:\Users\HP\AppData\Local\Microsoft\WindowsApps;C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\HP\Downloads\openjdk-21.0.2_windows-x64_bin (1)\jdk-21.0.2\bin;C:\Users\HP\AppData\Local\Programs\Antigravity\bin;C:\Users\HP\AppData\Roaming\npm;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21.0.2+13-58"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="AC1 (happy path) Thêm sản phẩm thành công" classname="admin quản lý hệ thống" time="0.01">
+    <system-out><![CDATA[
+Scenario: AC1 (happy path) Thêm sản phẩm thành công &amp#27;[90m# com/product/admin.feature:3&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32madmin đã đăng nhập&amp#27;[0m                          &amp#27;[90m# com.product.bdd.StepDefinitions.adminDaDangNhap()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32madmin thêm sản phẩm mới&amp#27;[0m                      &amp#27;[90m# com.product.bdd.StepDefinitions.adminThemSanPhamMoi()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mhệ thống lưu sản phẩm thành công&amp#27;[0m             &amp#27;[90m# com.product.bdd.StepDefinitions.heThongLuuSanPhamThanhCong()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="AC1 (unhappy path) Thêm sản phẩm thất bại khi thiếu thông tin" classname="admin quản lý hệ thống" time="0.005">
+    <system-out><![CDATA[
+Scenario: AC1 (unhappy path) Thêm sản phẩm thất bại khi thiếu thông tin &amp#27;[90m# com/product/admin.feature:8&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32madmin đã đăng nhập&amp#27;[0m                                              &amp#27;[90m# com.product.bdd.StepDefinitions.adminDaDangNhap()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32madmin thêm sản phẩm nhưng thiếu tên hoặc giá&amp#27;[0m                     &amp#27;[90m# com.product.bdd.StepDefinitions.adminThemSanPhamThieuThongTin()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mhệ thống hiển thị lỗi và không lưu sản phẩm&amp#27;[0m                      &amp#27;[90m# com.product.bdd.StepDefinitions.heThongLoiKhongLuuSanPham()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="AC2 (happy path) Sửa sản phẩm thành công" classname="admin quản lý hệ thống" time="0.007">
+    <system-out><![CDATA[
+Scenario: AC2 (happy path) Sửa sản phẩm thành công &amp#27;[90m# com/product/admin.feature:13&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32madmin đã đăng nhập&amp#27;[0m                         &amp#27;[90m# com.product.bdd.StepDefinitions.adminDaDangNhap()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32madmin chỉnh sửa thông tin sản phẩm&amp#27;[0m          &amp#27;[90m# com.product.bdd.StepDefinitions.adminChinhSuaSanPham()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mhệ thống cập nhật sản phẩm&amp#27;[0m                  &amp#27;[90m# com.product.bdd.StepDefinitions.heThongCapNhatSanPham()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="AC2 (unhappy path) Sửa sản phẩm thất bại" classname="admin quản lý hệ thống" time="0.004">
+    <system-out><![CDATA[
+Scenario: AC2 (unhappy path) Sửa sản phẩm thất bại &amp#27;[90m# com/product/admin.feature:18&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32madmin đã đăng nhập&amp#27;[0m                         &amp#27;[90m# com.product.bdd.StepDefinitions.adminDaDangNhap()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32madmin nhập thông tin sản phẩm không hợp lệ&amp#27;[0m  &amp#27;[90m# com.product.bdd.StepDefinitions.adminNhapThongTinSanPhamKhongHopLe()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mhệ thống báo lỗi và không cập nhật sản phẩm&amp#27;[0m &amp#27;[90m# com.product.bdd.StepDefinitions.heThongBaoLoiKhongCapNhat()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="AC3 (happy path) Xóa sản phẩm thành công" classname="admin quản lý hệ thống" time="0.005">
+    <system-out><![CDATA[
+Scenario: AC3 (happy path) Xóa sản phẩm thành công   &amp#27;[90m# com/product/admin.feature:23&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32madmin đã đăng nhập&amp#27;[0m                           &amp#27;[90m# com.product.bdd.StepDefinitions.adminDaDangNhap()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32madmin xóa sản phẩm chưa có trong đơn hàng nào&amp#27;[0m &amp#27;[90m# com.product.bdd.StepDefinitions.adminXoaSanPhamChuaTrongDonHang()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32msản phẩm bị xóa khỏi hệ thống&amp#27;[0m                 &amp#27;[90m# com.product.bdd.StepDefinitions.sanPhamBiXoaKhoiHeThong()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="AC3 (unhappy path) Xóa sản phẩm đang có trong đơn hàng" classname="admin quản lý hệ thống" time="0.006">
+    <system-out><![CDATA[
+Scenario: AC3 (unhappy path) Xóa sản phẩm đang có trong đơn hàng        &amp#27;[90m# com/product/admin.feature:28&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32madmin đã đăng nhập&amp#27;[0m                                              &amp#27;[90m# com.product.bdd.StepDefinitions.adminDaDangNhap()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32madmin xoa san pham khi dang giao hoac khong ton tai&amp#27;[0m              &amp#27;[90m# com.product.bdd.StepDefinitions.adminXoaSanPhamDangTrongDonHang()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mhệ thống hiển thị lỗi không thể xóa sản phẩm đang trong đơn hàng&amp#27;[0m &amp#27;[90m# com.product.bdd.StepDefinitions.heThongLoiKhongXoaSanPhamTrongDonHang()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="AC4 (happy path) Quản lý danh mục thành công" classname="admin quản lý hệ thống" time="0.015">
+    <system-out><![CDATA[
+Scenario: AC4 (happy path) Quản lý danh mục thành công &amp#27;[90m# com/product/admin.feature:33&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32madmin đã đăng nhập&amp#27;[0m                             &amp#27;[90m# com.product.bdd.StepDefinitions.adminDaDangNhap()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32madmin thêm hoặc sửa hoac xoa danh muc&amp#27;[0m           &amp#27;[90m# com.product.bdd.StepDefinitions.adminQuanLyDanhMuc()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mhệ thống cập nhật danh mục&amp#27;[0m                      &amp#27;[90m# com.product.bdd.StepDefinitions.heThongCapNhatDanhMuc()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="AC4 (unhappy path) Thêm danh mục bị trùng" classname="admin quản lý hệ thống" time="0.006">
+    <system-out><![CDATA[
+Scenario: AC4 (unhappy path) Thêm danh mục bị trùng    &amp#27;[90m# com/product/admin.feature:38&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32madmin đã đăng nhập&amp#27;[0m                             &amp#27;[90m# com.product.bdd.StepDefinitions.adminDaDangNhap()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32madmin thêm hoac sua danh muc bi trung thong tin&amp#27;[0m &amp#27;[90m# com.product.bdd.StepDefinitions.adminThemDanhMucTrung()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mhệ thống hiển thị lỗi trùng danh mục&amp#27;[0m            &amp#27;[90m# com.product.bdd.StepDefinitions.heThongLoiTrungDanhMuc()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="AC5 (happy path) Quản lý user thành công" classname="admin quản lý hệ thống" time="0.015">
+    <system-out><![CDATA[
+Scenario: AC5 (happy path) Quản lý user thành công &amp#27;[90m# com/product/admin.feature:43&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32madmin đã đăng nhập&amp#27;[0m                         &amp#27;[90m# com.product.bdd.StepDefinitions.adminDaDangNhap()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32madmin xem thong tin hoặc chỉnh sửa user&amp#27;[0m     &amp#27;[90m# com.product.bdd.StepDefinitions.adminChinhSuaUser()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mhệ thống lưu thay đổi user&amp#27;[0m                  &amp#27;[90m# com.product.bdd.StepDefinitions.heThongLuuThayDoiUser()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="AC5 (unhappy path) Chỉnh sửa user không tồn tại" classname="admin quản lý hệ thống" time="0.016">
+    <system-out><![CDATA[
+Scenario: AC5 (unhappy path) Chỉnh sửa user không tồn tại &amp#27;[90m# com/product/admin.feature:48&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32madmin đã đăng nhập&amp#27;[0m                                &amp#27;[90m# com.product.bdd.StepDefinitions.adminDaDangNhap()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32madmin chỉnh sửa user không tồn tại&amp#27;[0m                 &amp#27;[90m# com.product.bdd.StepDefinitions.adminChinhSuaUserKhongTonTai()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mhệ thống hiển thị lỗi va khong luu user&amp#27;[0m            &amp#27;[90m# com.product.bdd.StepDefinitions.heThongLoiVaKhongLuuUser()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="AC5 (unhappy path) Xóa user đã có đơn hàng" classname="admin quản lý hệ thống" time="0.013">
+    <system-out><![CDATA[
+Scenario: AC5 (unhappy path) Xóa user đã có đơn hàng                &amp#27;[90m# com/product/admin.feature:53&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32madmin đã đăng nhập&amp#27;[0m                                          &amp#27;[90m# com.product.bdd.StepDefinitions.adminDaDangNhap()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32madmin xóa tài khoản người dùng đã từng đặt hàng&amp#27;[0m              &amp#27;[90m# com.product.bdd.StepDefinitions.adminXoaUserDaDatHang()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mhệ thống hiển thị lỗi không thể xóa tài khoản đã có đơn hàng&amp#27;[0m &amp#27;[90m# com.product.bdd.StepDefinitions.heThongLoiKhongXoaTaiKhoanDaDatHang()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="AC6 (happy path) Xem danh sách đơn hàng" classname="admin quản lý hệ thống" time="0.017">
+    <system-out><![CDATA[
+Scenario: AC6 (happy path) Xem danh sách đơn hàng                 &amp#27;[90m# com/product/admin.feature:58&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32madmin đã đăng nhập&amp#27;[0m                                        &amp#27;[90m# com.product.bdd.StepDefinitions.adminDaDangNhap()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32madmin mở trang đơn hàng&amp#27;[0m                                    &amp#27;[90m# com.product.bdd.StepDefinitions.adminMoTrangDonHang()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mhệ thống hiển thị danh sách đơn hàng sắp xếp theo ngày mua&amp#27;[0m &amp#27;[90m# com.product.bdd.StepDefinitions.heThongHienThiDanhSachDonHang()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="AC6 (unhappy path) Không có đơn hàng nào" classname="admin quản lý hệ thống" time="0.006">
+    <system-out><![CDATA[
+Scenario: AC6 (unhappy path) Không có đơn hàng nào   &amp#27;[90m# com/product/admin.feature:63&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32madmin đã đăng nhập&amp#27;[0m                           &amp#27;[90m# com.product.bdd.StepDefinitions.adminDaDangNhap()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32madmin mở trang đơn hàng da bi xoa&amp#27;[0m             &amp#27;[90m# com.product.bdd.StepDefinitions.adminMoTrangDonHangTrong()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mhệ thống hiển thị thông báo không có đơn hàng&amp#27;[0m &amp#27;[90m# com.product.bdd.StepDefinitions.heThongThongBaoKhongCoDonHang()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="AC6 (happy path) Cập nhật số lượng mặt hàng trong đơn hàng" classname="admin quản lý hệ thống" time="0.007">
+    <system-out><![CDATA[
+Scenario: AC6 (happy path) Cập nhật số lượng mặt hàng trong đơn hàng &amp#27;[90m# com/product/admin.feature:68&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32madmin đã đăng nhập&amp#27;[0m                                           &amp#27;[90m# com.product.bdd.StepDefinitions.adminDaDangNhap()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32madmin cập nhật số lượng sản phẩm trong đơn hàng trực tuyến&amp#27;[0m    &amp#27;[90m# com.product.bdd.StepDefinitions.adminCapNhatSoLuongTrongDonHang()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mhệ thống lưu thay đổi số lượng trong đơn hàng&amp#27;[0m                 &amp#27;[90m# com.product.bdd.StepDefinitions.heThongLuuThayDoiSoLuongDonHang()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="AC7 (happy path) Thanh toán thành công khi có sản phẩm trong giỏ" classname="customer người dùng có tài khoản" time="0.004">
+    <system-out><![CDATA[
+Scenario: AC7 (happy path) Thanh toán thành công khi có sản phẩm trong giỏ &amp#27;[90m# com/product/customer.feature:3&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mcustomer đã đăng nhập và có sản phẩm trong giỏ hàng&amp#27;[0m                &amp#27;[90m# com.product.bdd.StepDefinitions.customerDangNhapVaCoSanPhamTrongGio()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mcustomer thực hiện thanh toán&amp#27;[0m                                       &amp#27;[90m# com.product.bdd.StepDefinitions.customerThanhToan()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mhệ thống lưu đơn hàng vào CSDL và gửi email xác nhận&amp#27;[0m                &amp#27;[90m# com.product.bdd.StepDefinitions.heThongLuuDonHangVaGuiEmail()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mhệ thống xóa giỏ hàng trong session sau thanh toán&amp#27;[0m                   &amp#27;[90m# com.product.bdd.StepDefinitions.heThongXoaSessionSauThanhToan()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="AC7 (unhappy path) Thanh toán khi giỏ hàng trống" classname="customer người dùng có tài khoản" time="0.003">
+    <system-out><![CDATA[
+Scenario: AC7 (unhappy path) Thanh toán khi giỏ hàng trống             &amp#27;[90m# com/product/customer.feature:9&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mcustomer đã đăng nhập nhưng giỏ hàng trống&amp#27;[0m                     &amp#27;[90m# com.product.bdd.StepDefinitions.customerDangNhapNhungGioTrong()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mcustomer thực hiện thanh toán&amp#27;[0m                                   &amp#27;[90m# com.product.bdd.StepDefinitions.customerThanhToan()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mhệ thống hiển thị thông báo giỏ hàng trống không thể thanh toán&amp#27;[0m &amp#27;[90m# com.product.bdd.StepDefinitions.heThongThongBaoGioTrongKhongThanhToan()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="AC7 (unhappy path) Thanh toán khi chưa đăng nhập" classname="customer người dùng có tài khoản" time="0.007">
+    <system-out><![CDATA[
+Scenario: AC7 (unhappy path) Thanh toán khi chưa đăng nhập       &amp#27;[90m# com/product/customer.feature:14&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mcustomer chưa đăng nhập nhưng có sản phẩm trong giỏ hàng&amp#27;[0m &amp#27;[90m# com.product.bdd.StepDefinitions.customerChuaDangNhapNhungCoSanPham()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mcustomer thực hiện thanh toán&amp#27;[0m                             &amp#27;[90m# com.product.bdd.StepDefinitions.customerThanhToan()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mhệ thống yêu cầu đăng nhập trước khi thanh toán&amp#27;[0m           &amp#27;[90m# com.product.bdd.StepDefinitions.heThongYeuCauDangNhap()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="AC1 (happy path) Xem danh sách sản phẩm" classname="guest người chưa có tài khoản" time="0.007">
+    <system-out><![CDATA[
+Scenario: AC1 (happy path) Xem danh sách sản phẩm &amp#27;[90m# com/product/guest.feature:3&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mguest đã truy cập trang sản phẩm&amp#27;[0m          &amp#27;[90m# com.product.bdd.StepDefinitions.guestTruyCapTrangSanPham()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mguest xem danh sách sản phẩm&amp#27;[0m               &amp#27;[90m# com.product.bdd.StepDefinitions.guestXemDanhSachSanPham()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mhệ thống hiển thị danh sách sản phẩm&amp#27;[0m       &amp#27;[90m# com.product.bdd.StepDefinitions.heThongHienThiDanhSachSanPham()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="AC1 (unhappy path) Không có sản phẩm nào" classname="guest người chưa có tài khoản" time="0.008">
+    <system-out><![CDATA[
+Scenario: AC1 (unhappy path) Không có sản phẩm nào                   &amp#27;[90m# com/product/guest.feature:8&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mguest đã truy cập trang sản phẩm&amp#27;[0m                             &amp#27;[90m# com.product.bdd.StepDefinitions.guestTruyCapTrangSanPham()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mguest xem danh sách sản phẩm nhưng hệ thống không có sản phẩm&amp#27;[0m &amp#27;[90m# com.product.bdd.StepDefinitions.guestXemDanhSachKhongCoSanPham()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mhệ thống hiển thị thông báo không có sản phẩm nào&amp#27;[0m             &amp#27;[90m# com.product.bdd.StepDefinitions.heThongHienThiKhongCoSanPham()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="AC2 (happy path) Xem chi tiết sản phẩm" classname="guest người chưa có tài khoản" time="0.004">
+    <system-out><![CDATA[
+Scenario: AC2 (happy path) Xem chi tiết sản phẩm     &amp#27;[90m# com/product/guest.feature:13&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mguest đã truy cập trang sản phẩm&amp#27;[0m             &amp#27;[90m# com.product.bdd.StepDefinitions.guestTruyCapTrangSanPham()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mguest chọn xem chi tiết một sản phẩm hợp lệ&amp#27;[0m   &amp#27;[90m# com.product.bdd.StepDefinitions.guestXemChiTietSanPhamHopLe()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mhệ thống hiển thị thông tin chi tiết sản phẩm&amp#27;[0m &amp#27;[90m# com.product.bdd.StepDefinitions.heThongHienThiChiTietSanPham()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="AC2 (unhappy path) Xem chi tiết sản phẩm không tồn tại" classname="guest người chưa có tài khoản" time="0.005">
+    <system-out><![CDATA[
+Scenario: AC2 (unhappy path) Xem chi tiết sản phẩm không tồn tại &amp#27;[90m# com/product/guest.feature:18&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mguest đã truy cập trang sản phẩm&amp#27;[0m                         &amp#27;[90m# com.product.bdd.StepDefinitions.guestTruyCapTrangSanPham()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mguest chọn xem chi tiết sản phẩm không tồn tại&amp#27;[0m            &amp#27;[90m# com.product.bdd.StepDefinitions.guestXemChiTietSanPhamKhongTonTai()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mhệ thống hiển thị thông báo sản phẩm không tồn tại&amp#27;[0m        &amp#27;[90m# com.product.bdd.StepDefinitions.heThongHienThiThongBaoKhongCo()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="AC3 (happy path) Thêm sản phẩm vào giỏ hàng" classname="guest người chưa có tài khoản" time="0.007">
+    <system-out><![CDATA[
+Scenario: AC3 (happy path) Thêm sản phẩm vào giỏ hàng    &amp#27;[90m# com/product/guest.feature:23&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mguest đã truy cập trang sản phẩm&amp#27;[0m                 &amp#27;[90m# com.product.bdd.StepDefinitions.guestTruyCapTrangSanPham()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mguest chọn mua một sản phẩm hợp lệ&amp#27;[0m                &amp#27;[90m# com.product.bdd.StepDefinitions.guestChonMuaSanPhamHopLe()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mhệ thống thêm sản phẩm vào giỏ hàng trong session&amp#27;[0m &amp#27;[90m# com.product.bdd.StepDefinitions.heThongThemSanPhamVaoGio()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="AC3 (unhappy path) Thêm sản phẩm không tồn tại vào giỏ" classname="guest người chưa có tài khoản" time="0.005">
+    <system-out><![CDATA[
+Scenario: AC3 (unhappy path) Thêm sản phẩm không tồn tại vào giỏ &amp#27;[90m# com/product/guest.feature:28&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mguest đã truy cập trang sản phẩm&amp#27;[0m                         &amp#27;[90m# com.product.bdd.StepDefinitions.guestTruyCapTrangSanPham()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mguest chọn mua sản phẩm không tồn tại&amp#27;[0m                     &amp#27;[90m# com.product.bdd.StepDefinitions.guestChonMuaSanPhamKhongTonTai()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mhệ thống hiển thị thông báo không có sản phẩm&amp#27;[0m             &amp#27;[90m# com.product.bdd.StepDefinitions.heThongThongBaoKhongCoSanPham()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="AC4 (happy path) Xem giỏ hàng có sản phẩm" classname="guest người chưa có tài khoản" time="0.004">
+    <system-out><![CDATA[
+Scenario: AC4 (happy path) Xem giỏ hàng có sản phẩm                &amp#27;[90m# com/product/guest.feature:33&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mguest đã thêm sản phẩm vào giỏ hàng&amp#27;[0m                        &amp#27;[90m# com.product.bdd.StepDefinitions.guestDaThemSanPhamVaoGio()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mguest xem giỏ hàng&amp#27;[0m                                          &amp#27;[90m# com.product.bdd.StepDefinitions.guestXemGioHang()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mhệ thống hiển thị danh sách sản phẩm đã chọn mua từ session&amp#27;[0m &amp#27;[90m# com.product.bdd.StepDefinitions.heThongHienThiGioHangTuSession()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="AC4 (unhappy path) Xem giỏ hàng khi giỏ trống" classname="guest người chưa có tài khoản" time="0.005">
+    <system-out><![CDATA[
+Scenario: AC4 (unhappy path) Xem giỏ hàng khi giỏ trống &amp#27;[90m# com/product/guest.feature:38&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mguest chưa thêm sản phẩm nào vào giỏ hàng&amp#27;[0m       &amp#27;[90m# com.product.bdd.StepDefinitions.guestChuaThemSanPhamVaoGio()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mguest xem giỏ hàng&amp#27;[0m                               &amp#27;[90m# com.product.bdd.StepDefinitions.guestXemGioHang()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mhệ thống hiển thị thông báo giỏ hàng trống&amp#27;[0m       &amp#27;[90m# com.product.bdd.StepDefinitions.heThongThongBaoGioHangTrong()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="AC5 (happy path) Cập nhật số lượng sản phẩm trong giỏ" classname="guest người chưa có tài khoản" time="0.005">
+    <system-out><![CDATA[
+Scenario: AC5 (happy path) Cập nhật số lượng sản phẩm trong giỏ &amp#27;[90m# com/product/guest.feature:43&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mguest đã có sản phẩm trong giỏ hàng session&amp#27;[0m             &amp#27;[90m# com.product.bdd.StepDefinitions.guestDaCoSanPhamTrongGio()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mguest chỉnh sửa số lượng sản phẩm thành số hợp lệ&amp#27;[0m        &amp#27;[90m# com.product.bdd.StepDefinitions.guestChinhSuaSoLuongHopLe()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mhệ thống cập nhật số lượng sản phẩm trong session&amp#27;[0m        &amp#27;[90m# com.product.bdd.StepDefinitions.heThongCapNhatSoLuongTrongSession()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="AC5 (happy path) Xóa sản phẩm khỏi giỏ khi đặt số lượng bằng 0" classname="guest người chưa có tài khoản" time="0.003">
+    <system-out><![CDATA[
+Scenario: AC5 (happy path) Xóa sản phẩm khỏi giỏ khi đặt số lượng bằng 0 &amp#27;[90m# com/product/guest.feature:48&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mguest đã có sản phẩm trong giỏ hàng session&amp#27;[0m                      &amp#27;[90m# com.product.bdd.StepDefinitions.guestDaCoSanPhamTrongGio()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mguest chỉnh sửa số lượng sản phẩm thành 0&amp#27;[0m                         &amp#27;[90m# com.product.bdd.StepDefinitions.guestChinhSuaSoLuongBang0()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mhệ thống xóa sản phẩm đó khỏi giỏ hàng trong session&amp#27;[0m              &amp#27;[90m# com.product.bdd.StepDefinitions.heThongXoaSanPhamKhoiGioSession()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="AC6 (happy path) Đăng ký tài khoản thành công" classname="guest người chưa có tài khoản" time="0.008">
+    <system-out><![CDATA[
+Scenario: AC6 (happy path) Đăng ký tài khoản thành công           &amp#27;[90m# com/product/guest.feature:53&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mguest chưa có tài khoản&amp#27;[0m                                   &amp#27;[90m# com.product.bdd.StepDefinitions.guestChuaCoTaiKhoan()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mguest đăng ký với email chưa tồn tại và thông tin hợp lệ&amp#27;[0m   &amp#27;[90m# com.product.bdd.StepDefinitions.guestDangKyEmailHopLe()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mhệ thống lưu tài khoản mới vào CSDL và gửi email thông báo&amp#27;[0m &amp#27;[90m# com.product.bdd.StepDefinitions.heThongLuuTaiKhoanVaGuiEmail()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="AC6 (unhappy path) Đăng ký với email đã tồn tại" classname="guest người chưa có tài khoản" time="0.003">
+    <system-out><![CDATA[
+Scenario: AC6 (unhappy path) Đăng ký với email đã tồn tại            &amp#27;[90m# com/product/guest.feature:58&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mguest chưa có tài khoản&amp#27;[0m                                      &amp#27;[90m# com.product.bdd.StepDefinitions.guestChuaCoTaiKhoan()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mguest đăng ký với email đã được đăng ký trước đó&amp#27;[0m              &amp#27;[90m# com.product.bdd.StepDefinitions.guestDangKyEmailDaTonTai()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mhệ thống hiển thị lỗi email đã tồn tại và không lưu tài khoản&amp#27;[0m &amp#27;[90m# com.product.bdd.StepDefinitions.heThongLoiEmailDaTonTai()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="AC6 (unhappy path) Đăng ký với thông tin không hợp lệ" classname="guest người chưa có tài khoản" time="0.006">
+    <system-out><![CDATA[
+Scenario: AC6 (unhappy path) Đăng ký với thông tin không hợp lệ     &amp#27;[90m# com/product/guest.feature:63&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mguest chưa có tài khoản&amp#27;[0m                                     &amp#27;[90m# com.product.bdd.StepDefinitions.guestChuaCoTaiKhoan()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mguest đăng ký nhưng bỏ trống các trường bắt buộc&amp#27;[0m             &amp#27;[90m# com.product.bdd.StepDefinitions.guestDangKyThieuThongTin()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mhệ thống hiển thị lỗi thiếu thông tin và không lưu tài khoản&amp#27;[0m &amp#27;[90m# com.product.bdd.StepDefinitions.heThongLoiThieuThongTin()&amp#27;[0m
+]]></system-out>
+  </testcase>
+</testsuite>
